@@ -13,7 +13,7 @@ This repository contains two separate C programs:
 
 2. **Execution**: Run the program with the path to the partition vector file "./a.out [path-to-partvec]".
 
-3. **Output**: The program generates a file containing the permutation vector. The output filename is created from the input filename with the last 8 characters altered to end in 'permvec'.
+3. **Output**: The program generates a file containing the permutation vector. The output filename is created from the input filename with the last 8 characters altered to end in 'permvec' (program assumes the provided partitioning vector file name ends with "partvec"). 
 
 ## Notes
 - Make sure that the input file format is correct and contains one integer per line.
